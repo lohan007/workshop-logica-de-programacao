@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dell"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-07-06 12:14:52 "/>
+        <attribute name="created" value="RGVsbDtERVNLVE9QLUxPSEFOOzIwMjItMDctMDY7IjEyOjA0OjMzICI7MjUyNQ=="/>
+        <attribute name="edited" value="RGVsbDtERVNLVE9QLUxPSEFOOzIwMjItMDctMDY7IjEyOjE0OjUyICI7MTsyNjM1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tabuada, contador, resultado" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informe um n&#250;mero positivo que deseja saber a tabuada: &quot;" newline="True"/>
+            <input variable="tabuada"/>
+            <assign variable="contador" expression="0"/>
+            <if expression="tabuada &gt;= 0">
+                <then>
+                    <while expression="contador &lt;= 10">
+                        <assign variable="resultado" expression="tabuada*contador"/>
+                        <output expression="tabuada &amp; &quot; X &quot; &amp; contador &amp; &quot; = &quot; &amp; resultado" newline="True"/>
+                        <assign variable="contador" expression="contador+1"/>
+                    </while>
+                </then>
+                <else>
+                    <output expression="&quot;Informe um valor positivo&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dell"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-07-20 02:17:22 "/>
+        <attribute name="created" value="RGVsbDtERVNLVE9QLUxPSEFOOzIwMjItMDctMjA7IjAyOjEzOjU2ICI7MjUyNQ=="/>
+        <attribute name="edited" value="RGVsbDtERVNLVE9QLUxPSEFOOzIwMjItMDctMjA7IjAyOjE3OjIyICI7MTsyNjMw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <input variable="numero"/>
+            <if expression="numero%2==0">
+                <then>
+                    <output expression="&quot;O numero &quot; &amp; numero &amp; &quot; &#233; par&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O n&#250;mero &quot; &amp; numero &amp; &quot; &#233; &#237;mpar&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

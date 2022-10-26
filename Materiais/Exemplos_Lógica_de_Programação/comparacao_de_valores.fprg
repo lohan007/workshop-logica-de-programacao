@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dell"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-07-06 12:03:42 "/>
+        <attribute name="created" value="RGVsbDtERVNLVE9QLUxPSEFOOzIwMjItMDctMDY7IjExOjUwOjQ5ICI7MjUzMg=="/>
+        <attribute name="edited" value="RGVsbDtERVNLVE9QLUxPSEFOOzIwMjItMDctMDY7IjEyOjAzOjQyICI7MTsyNjMy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor1, valor2" type="Integer" array="False" size=""/>
+            <input variable="valor1"/>
+            <input variable="valor2"/>
+            <if expression="valor1 != valor2">
+                <then>
+                    <if expression="valor1 &gt; valor2">
+                        <then>
+                            <output expression="&quot;O valor 1 &#233; maior que o valor 2&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;O valor 1 &#233; menor que o valor 2&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Os valores s&#227;o iguais&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
