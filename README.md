@@ -1,4 +1,4 @@
-<h1 align="center"> Workshop Lógica de Programação - com Python  </h1>
+<h1 align="center"> Lógica de Programação - com Python  </h1>
 
 <p align="center">
 Evento gratuito, promovido pela Secretaria Municipal do Trabalho Empreendedorismo e Inovação - SEMTEPI com o objetivo de conceituar programação, identificar níveis de abstração na representação e solução de problemas e introduzir uma linguagem de programação.
