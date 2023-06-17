@@ -22,10 +22,10 @@ Esse projeto utilizou as com as seguintes tecnologias e ferramentas:
 
 - Python
 - Flowgorithm
+- Google Colab
 
 ## 💻 Programa
 
-Carga horária de 6 horas com 3 horas/aula
 - Dia 1: Conceitos de programação, dúvidas frequentes, ferramentas que todo programador deveria ter, introdução aos métodos de resolução de problemas, pseudocódigos;
 - Dia 2: Fluxogramas e aplicação em uma linguagem de programação (python);
 
